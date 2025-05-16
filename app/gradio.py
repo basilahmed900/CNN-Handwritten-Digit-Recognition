@@ -72,7 +72,8 @@ import numpy as np
 from PIL import Image
 
 # Load the model
-model = tf.keras.models.load_model('mnist_cnn_model.keras')
+model = tf.keras.models.load_model('model_files/mnist_cnn_model.keras')
+
 
 # Define the prediction function
 def predict_image(image):
