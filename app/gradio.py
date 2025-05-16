@@ -64,7 +64,7 @@ model.save('mnist_cnn_model.h5')
 model.save('mnist_cnn_model.keras')
 
 # Gradio App for Handwritten Digit Recognition
-!pip install gradio
+
 
 import gradio as gr
 import tensorflow as tf
